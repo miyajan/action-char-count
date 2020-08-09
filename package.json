@@ -1,0 +1,19 @@
+{
+  "name": "action-char-count",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JavaScript Action to count the number of characters",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0",
+    "@actions/glob": "^0.1.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3"
+  }
+}

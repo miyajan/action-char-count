@@ -1,0 +1,15 @@
+name: 'Char count'
+description: 'Count the number of characters and comment on a pull request'
+inputs:
+  token:
+    description: 'The GitHub Token.'
+    required: true
+  patterns:
+    description: 'Glob patterns to search files.'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: message-square
+  color: blue
